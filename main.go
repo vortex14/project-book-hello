@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+func hello() string {
+	return "Hello"
+}
+
 func main() {
-	println(fmt.Sprintf("Hello"))
+	println(fmt.Sprintf(hello()))
 }
